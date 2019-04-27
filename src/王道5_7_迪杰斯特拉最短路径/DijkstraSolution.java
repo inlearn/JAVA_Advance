@@ -3,9 +3,17 @@ package 王道5_7_迪杰斯特拉最短路径;
 import java.util.*;
 
 public class DijkstraSolution {
-    public ArrayList<Integer> findRouth(int []tree,int x)//找到点0到任意点的
+    public static ArrayList<Integer> findRouth(int []tree,int x)//找到点0到任意点的
     {
+        ArrayList<Integer> res=new ArrayList<>();
+        while(tree[x]!=-1)
+        {
+            res.add(0,x);
+            x=tree[x];
+        }
 
+        res.add(0,x);
+        return res;
     }
 
     public static void main(String[] args) {
@@ -55,13 +63,13 @@ public class DijkstraSolution {
             while(iterator.hasNext())
             {   Node next=iterator.next();
                 if(visited[next.id]!=1){
-                    if(node.cost+next.cost<distance[next.id])
+                    if(node.cost+next.cost<distance[next.id])//如果新的小值比原来的小，更新最小值与parent
                     {
                         distance[next.id]=node.cost+next.cost;
                         parent[next.id]=node.id;
                     }
 
-                    System.out.println(node.id+"->"+next.id);
+                    //System.out.println(node.id+"->"+next.id);
                     priorityQueue.add(new Node(next.id,node.cost+next.cost));
                 }
 
@@ -73,6 +81,11 @@ public class DijkstraSolution {
         System.out.println(Arrays.toString(parent));
         System.out.println(Arrays.toString(distance));
 
+        ArrayList<Integer>routh=findRouth(parent, 5);//找到？的最小路径
+
+        for (Integer integer : routh) {
+            System.out.printf("%d->",integer);
+        }
 
 
 
@@ -83,9 +96,13 @@ public class DijkstraSolution {
 
 class Global
 {
-    static int []vertexs=new int[]{0,1,2,3};//结点从0开始编号
+    //static int []vertexs=new int[]{0,1,2,3};//结点从0开始编号
+    static int []vertexs=new int[]{0,1,2,3,4,5};//结点从0开始编号
+
+
 //    static int [][]arr=new int[][]{{1,2,1},{1,3,2},{1,4,5},{2,4,2},{3,4,3}};
-    static int [][]arr=new int[][]{{0,1,1},{0,2,2},{0,3,5},{1,3,2},{2,3,3}};
+    //static int [][]arr=new int[][]{{0,1,1},{0,2,2},{0,3,5},{1,3,2},{2,3,3}};
+    static int [][]arr=new int[][]{{0,1,5},{0,2,1},{1,2,2},{1,3,1},{2,3,4},{2,4,8},{3,4,3},{3,5,6}};
 }
 class Node implements Comparable<Node>
 {

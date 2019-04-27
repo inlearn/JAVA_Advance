@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cda2d56c-049a-4656-b827-a097905b744f" name="Default Changelist" comment="" />
+    <list default="true" id="cda2d56c-049a-4656-b827-a097905b744f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java学习基础/王道5_7_迪杰斯特拉最短路径/DijkstraSolution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java学习基础/王道5_7_迪杰斯特拉最短路径/DijkstraSolution.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java学习基础/王道5_7_迪杰斯特拉最短路径/Global.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java学习基础/王道5_7_迪杰斯特拉最短路径/Global.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java学习基础/王道5_7_迪杰斯特拉最短路径/Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java学习基础/王道5_7_迪杰斯特拉最短路径/Node.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/王道5_7_迪杰斯特拉最短路径/DijkstraSolution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/王道5_7_迪杰斯特拉最短路径/DijkstraSolution.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -23,8 +30,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/王道5_7_迪杰斯特拉最短路径/DijkstraSolution.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="11" column="60" lean-forward="true" selection-start-line="11" selection-start-column="60" selection-end-line="11" selection-end-column="60" />
+            <state relative-caret-position="241">
+              <caret line="71" column="22" selection-start-line="71" selection-start-column="22" selection-end-line="71" selection-end-column="22" />
               <folding>
                 <element signature="e#1235#1236#0" expanded="true" />
                 <element signature="e#1266#1267#0" expanded="true" />
@@ -133,6 +140,9 @@
       <find>compare</find>
     </findStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -186,6 +196,7 @@
     <option name="width" value="1662" />
     <option name="height" value="886" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -222,12 +233,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="最小生成树" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="java学习基础" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java学习基础" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="王道5_7_迪杰斯特拉最短路径" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -240,6 +245,7 @@
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555123527321" />
@@ -367,12 +373,12 @@
       <workItem from="1555846495133" duration="174000" />
       <workItem from="1555894411082" duration="12784000" />
       <workItem from="1556188547047" duration="13236000" />
-      <workItem from="1556350026652" duration="11138000" />
+      <workItem from="1556350026652" duration="13576000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="156969000" />
+    <option name="totallyTimeSpent" value="159407000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -387,7 +393,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.30877572" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.30911064" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39869988" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -397,7 +403,7 @@
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.34561214" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.3449024" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.2496879" />
@@ -721,8 +727,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/王道5_7_迪杰斯特拉最短路径/DijkstraSolution.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="11" column="60" lean-forward="true" selection-start-line="11" selection-start-column="60" selection-end-line="11" selection-end-column="60" />
+        <state relative-caret-position="241">
+          <caret line="71" column="22" selection-start-line="71" selection-start-column="22" selection-end-line="71" selection-end-column="22" />
           <folding>
             <element signature="e#1235#1236#0" expanded="true" />
             <element signature="e#1266#1267#0" expanded="true" />
